@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+header {
+    background-color: rgb(6, 6, 19);
+    box-shadow: 1px 1px 1px rgb(209, 198, 198);
+}
+
+
+header .inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  
+}
+  
+header a {
+  color: var(--white);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+  
+header a:hover {
+  opacity: 0.6;
+}
+  
+header .brand a {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Gluten', cursive;
+  font-family: 'Special Elite', cursive;
+  letter-spacing: -2px;
+  color: rgb(41, 155, 102);
+  margin-right: 6px;
+}
+
+header .nav-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+  
+header .nav-links li {
+  display: inline-block;
+  margin-right: 25px;
+
+}
+@media (max-width:645px) {
+  header .nav-links li{
+  margin-right: 14px;
+}
+}
+
+header .nav-links li:last-child {
+margin-right: 0px;
+margin-left: -10px;
+}
